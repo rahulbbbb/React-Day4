@@ -7,6 +7,77 @@
   pointer-events: none;
 }
 
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.card {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  background-color: pink;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card img {
+  height: 80px;
+  width: 80px;
+  border:3px solid black;
+  border-radius: 150px;
+  margin-top: 30px;
+  margin-left:30px;
+}
+
+.card-body {
+  padding: 20px;
+  
+}
+
+.card-title {
+  
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color:white
+}
+
+.card-text {
+  margin: 0;
+  font-size: 15px;
+  margin-bottom:10px ;
+  font-weight: normal;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: darkorchid;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkmagenta;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
