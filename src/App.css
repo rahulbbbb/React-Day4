@@ -11,6 +11,8 @@
 .card-container{
   display: flex;
   justify-content: space-around;
+  background-color: whitesmoke;
+  height:800px
 }
 
 
